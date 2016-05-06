@@ -43,16 +43,22 @@
 #define Y7 (bool)((PINB>>4)&1)
 
 // pin comport
-#define TX1 0  //COM1
-#define RX1 0
+#define PIN_TX1 0  //COM1
+#define PIN_RX1 0
 
-#define TX2 0  //COM2
-#define RX2 0
+#define PIN_TX2 0  //COM2
+#define PIN_RX2 0
 
 // pin IIC
 #define SDA 0
 #define SCL 0
 
+
+void input_config();
+void output_config();
+void set_porty(uint8_t data);
+int get_porty();
+int get_portx()
 
 void input_config()
 {
