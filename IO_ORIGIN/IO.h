@@ -58,7 +58,7 @@ void input_config();
 void output_config();
 void set_porty(uint8_t data);
 int get_porty();
-int get_portx()
+int get_portx();
 
 void input_config()
 {
