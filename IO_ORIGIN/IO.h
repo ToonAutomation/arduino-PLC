@@ -28,8 +28,8 @@
 #define X2 (bool)((PINC>>2)&1)
 #define X3 (bool)((PINC>>1)&1)
 #define X4 (bool)((PINC)&1)
-#define X5 (bool)(analogRead(A7)/900)
-#define X6 (bool)(analogRead(A6)/900) 
+#define X5 (bool)(analogRead(A7)/input_sensitive)
+#define X6 (bool)(analogRead(A6)/input_sensitive) 
 #define X7 (bool)((PINB>>5)&1)
 
 //fast Read output builtin
